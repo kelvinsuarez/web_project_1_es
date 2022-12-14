@@ -7,17 +7,75 @@
   margin: 0 auto;
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  
 }
 
+.header, .logo, .header__title,
+.header__subtitle,
+.header__main-illustration, 
+.header__square{
+  border: 1px solid red
+}
 .header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  background-color: #F2F2F2;
   /* parameters for the header section */
+}
+
+.logo_place_header{
+  z-index: 5;
+  width: 154px;
+  height: 31;
+  top: 30px;
+  left: 64px;
+  position: absolute;
+  
+}
+.header__title{
+  width: 730px
+  line-height: 96px; 
+  align-items: center ;
+  left: 64px;
+  position: absolute;
+  font-size: 102px;
+  font-weight: bold;
+  z-index: 1;
+}
+.header__subtitle{
+  left: 64px;
+  bottom: 30px;
+  position: absolute;
+  z-index: 4;
+  width: 388px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+.header__main-illustration{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 756px;
+  height: 608px;
+  z-index: 1;
+}
+.header__square{
+  background-color: #2F80ED;
+  position: absolute;
+  top: 64px;
+  right: 0px;
+  width: 568px;
+  height: 568px;
 }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
+  
   height: 568px;
   width: 568px;
 }
