@@ -30,7 +30,8 @@
 .feynman,
 .feynman__title,
 .feynman__subtitle,
-.feynman__link{
+.feynman__link,
+.feynman__image{
   border: 1px solid red
 }
 
@@ -185,11 +186,48 @@ justify-content: center;
 }
 
 .feynman{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
   height: 790px;
+  height: 100%;
 }
+.feynman__image{
+  
+  width: 867px;
+  height: 637px;
+  position: absolute;
+  left: 0px;
+}
+.feynman__title{
+  z-index: 2;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  width: 775px;
+  margin-bottom: 0px;
 
+}
+.feynman__subtitle{
+  z-index: 1;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  margin-top: 70px;
+  
 
-
+}
+.feynman__link{
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
