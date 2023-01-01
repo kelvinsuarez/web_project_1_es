@@ -31,7 +31,16 @@
 .feynman__title,
 .feynman__subtitle,
 .feynman__link,
-.feynman__image{
+.feynman__image,
+.kaufman,
+.kaufman__title,
+.kaufman__subtitle,
+.kaufman__table,
+.kaufman__table-row,
+.kaufman__table-cell,
+.kaufman__table-heading,
+.kaufman__table-text,
+.kaufman__triangle{
   border: 1px solid red
 }
 
@@ -186,13 +195,10 @@ justify-content: center;
 }
 
 .feynman{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
+  
   position: relative;
   height: 790px;
-  height: 100%;
+  
 }
 .feynman__image{
   
@@ -200,25 +206,34 @@ justify-content: center;
   height: 637px;
   position: absolute;
   left: 0px;
+  bottom: 0px;
 }
+
 .feynman__title{
-  z-index: 2;
+  position: absolute;
   text-align: center;
+  z-index: 5;
+  left: 25%;
+  margin-top: 0%;
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
   width: 775px;
   margin-bottom: 0px;
-
 }
 .feynman__subtitle{
+  position:absolute;
+  text-align: center;
   z-index: 1;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
   margin-top: 70px;
-  
+  width: 775px;
+  margin-top: 350px;
+  left: 25%;
 
+  
 }
 .feynman__link{
   position: absolute;
@@ -227,6 +242,71 @@ justify-content: center;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+}
+
+.kaufman{
+  position: relative;
+  overflow: hidden;
+}
+.kaufman__title{
+  position: relative;
+  z-index: 2;
+  width: 60%;
+  margin: 90px auto 0px;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+.kaufman__subtitle{
+  position: relative;
+  z-index: 2;
+  width: 60%;
+  margin: 20px auto 0px;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+.kaufman__table{
+  margin: 0px auto;
+  padding-top: 80px;
+  width: 1100PX;
+  position: relative;
+  z-index: 2;
+}
+.kaufman__table-cell{
+  position: relative;
+  width: 200PX;
+  top: 80px;
+}
+.kaufman__table-row{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  bottom: 80px;
+}
+.kaufman__table-heading{
+  position: relative;
+  margin-top: 0px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+.kaufman__table-text{
+  margin-top: 20px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+.kaufman__triangle{
+  position: absolute;
+  width: 660PX;
+  height: 636PX;
+  top:0px;
+  right: -124px;
 }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
