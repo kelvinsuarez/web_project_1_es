@@ -10,7 +10,7 @@
   
 }
 
-.header, .logo, .header__title,
+/*.header, .logo, .header__title,
 .header__subtitle,
 .header__main-illustration, 
 .header__square, 
@@ -50,7 +50,7 @@
 .footer__list,
 .footer__social-icons{
   border: 1px solid red
-}
+}*/
 
 .header {
   display: flex;
@@ -124,6 +124,8 @@
   justify-content: space-between;
 }
 .description__brief{
+  position: relative;
+  margin: 0px 0px;
   width:175px;
   line-height: 1.2;
   font-size: 18px;
@@ -395,17 +397,5 @@ justify-content: center;
 .footer__column_content_social{
   color: white;
 }
-/* here we have two examples of selectors in order to remind you how to set styles for elements */
-.header__square-pic {
-  
-  height: 568px;
-  width: 568px;
-}
 
-/* including elements with key-value modifiers */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
+
