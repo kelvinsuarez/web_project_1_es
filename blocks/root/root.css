@@ -1,0 +1,53 @@
+.page {
+    min-width: 1100px;
+    /* we don't know how to make mobile versions of websites yet, */
+    /* so here we've set a minimum page width */
+    max-width: 1600px;
+    /* here we've set a maximum page width */
+    margin: 0 auto;
+    /* this ensures that all content is centered on screens wider than 1600px */
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    
+  }
+  
+  /*.header, .logo, .header__title,
+  .header__subtitle,
+  .header__main-illustration, 
+  .header__square, 
+  .description,
+  .description__two-columns,
+  .description__brief,
+  .description__main-text,
+  .description__paragraph,
+  .digits__section-title,
+  .digits__section-subtitle,
+  .digits__table,
+  .digits__table-row,
+  .digits__table-cell,
+  .digits__table-heading,
+  .digits__table-text,
+  .digits,
+  .feynman,
+  .feynman__title,
+  .feynman__subtitle,
+  .feynman__link,
+  .feynman__image,
+  .kaufman,
+  .kaufman__title,
+  .kaufman__subtitle,
+  .kaufman__table,
+  .kaufman__table-row,
+  .kaufman__table-cell,
+  .kaufman__table-heading,
+  .kaufman__table-text,
+  .kaufman__triangle,
+  .footer,
+  .footer__column,
+  .logo_place_footer,
+  .footer__author,
+  .footer__column,
+  .footer__column-heading,
+  .footer__list,
+  .footer__social-icons{
+    border: 1px solid red
+  }*/
