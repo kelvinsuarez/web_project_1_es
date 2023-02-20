@@ -1,0 +1,7 @@
+.video{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    background-image: linear-gradient(white 500px 30px , #F2F2F2 150px 50px);
+}

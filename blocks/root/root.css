@@ -9,6 +9,17 @@
     font-family: 'Helvetica Neue', Arial, sans-serif;
     
   }
+  .link {
+   opacity: 1;
+   transition-property: opacity;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+    
+  }
+
+  .link:hover {
+    opacity: 0.5;
+  }
   
   /*.header, .logo, .header__title,
   .header__subtitle,
@@ -48,6 +59,26 @@
   .footer__column,
   .footer__column-heading,
   .footer__list,
-  .footer__social-icons{
+  .footer__social-icons,
+  .techniques,
+  .techniques,
+  .techniques__cards,
+  .techniques__cards-itens,
+  .video,
+  .section__title,
+  .section__subtitle,
+  .video__iframes,
+  .khan__container,
+  .khan__author,
+  .khan__title,
+  .khan__quote,
+  .khan__quote-author,
+  .khan__quote-author-subline,
+  .khan__book-container,
+  .khan__book-pic,
+  .khan__kuy-link,
+  .khan__buy-link,
+  .resources__logo-zone,
+  .resources__logo{
     border: 1px solid red
   }*/
