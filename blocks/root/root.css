@@ -8,18 +8,39 @@
     /* this ensures that all content is centered on screens wider than 1600px */
     font-family: 'Helvetica Neue', Arial, sans-serif;
     
-  }
-  .link {
+}
+
+.section__title{
+    text-align: center;
+    line-height: 1.15;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 100px;
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.section__subtitle{
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin-top: 0px;
+  width: 60%;
+  margin-bottom: 0px;
+}
+
+.link {
    opacity: 1;
    transition-property: opacity;
     transition-duration: 0.3s;
     transition-timing-function: linear;
     
-  }
+}
 
-  .link:hover {
+.link:hover {
     opacity: 0.5;
-  }
+}
   
   /*.header, .logo, .header__title,
   .header__subtitle,
