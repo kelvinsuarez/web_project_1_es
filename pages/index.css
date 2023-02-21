@@ -12,14 +12,16 @@
 @import url(../blocks/content/description/__paragraph/description__paragraph.css);
 @import url(../blocks/content/description/__span-accent/description__span-accent.css);
 @import url(../blocks/content/techniques/techniques.css);
-@import url(../blocks/content/techniques/__title/techniques__title.css);
-@import url(../blocks/content/techniques/__subtitle/techniques__subtitle.css);
+@import url(../blocks/content/techniques/__section-title/techniques__section-title.css);
+@import url(../blocks/content/techniques/__section-subtitle/techniques__section-subtitle.css);
 @import url(../blocks/content/techniques/__cards/techniques__cards.css);
 @import url(../blocks/content/techniques/__cards-itens/techniques__cards-itens.css);
 @import url(../blocks/content/techniques/__image/techniques__image.css);
 @import url(../blocks/content/techniques/__cards-title/techniques__cards-title.css);
 @import url(../blocks/content/techniques/__cards-text/techniques__cards-text.css);
 @import url(../blocks/content/video/video.css);
+@import url(../blocks/content/video/__section-title/video__section-title.css);
+@import url(../blocks/content/video/__section-subtitle/video__section-subtitle.css);
 @import url(../blocks/content/video/__iframes/video__iframes.css);
 @import url(../blocks/content/oakley/oakley.css);
 @import url(../blocks/content/oakley/__two-columns/oakley__two-columns.css);
@@ -50,6 +52,8 @@
 @import url(../blocks/content/khan/__book-pic/khan__book-pic.css);
 @import url(../blocks/content/khan/__buy-link/khan__buy-link.css);
 @import url(../blocks/content/resources/resources.css);
+@import url(../blocks/content/resources/__section-title/resources__section-title.css);
+@import url(../blocks/content/resources/__section-subtitle/resources__section-subtitle.css);
 @import url(../blocks/content/resources/__logo-zone/resources__logo-zone.css);
 @import url(../blocks/content/resources/__logo/resources__logo.css);
 @import url(../blocks/content/resources/__logo-image/resources__logo-image.css);
