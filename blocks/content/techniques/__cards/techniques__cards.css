@@ -1,9 +1,7 @@
 .techniques__cards{
     display: flex;
     width: 920px;
-    height: 605px;
+    height: 1010px;
     flex-wrap: wrap;
-    justify-content: space-between;
-    overflow-y: scroll;
-    overflow-x: hidden;
+    justify-content: space-between; 
 }
