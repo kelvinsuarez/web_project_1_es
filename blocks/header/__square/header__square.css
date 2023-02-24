@@ -1,7 +1,7 @@
 
 .header__square{
   background-color: #2F80ED;
-  position: relative;
+  position: absolute;
   top: 64px;
   right: 0px;
   width: 568px;

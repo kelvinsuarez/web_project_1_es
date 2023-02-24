@@ -15,6 +15,7 @@
   max-height: 756px;
   background-color: #F2F2F2;
   overflow: hidden;
-  margin:auto
+  margin:auto;
+  position: relative;
   /* parameters for the header section */
 }

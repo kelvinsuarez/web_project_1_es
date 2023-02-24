@@ -22,8 +22,9 @@
 .link:hover {
     opacity: 0.5;
 }
-  
-  /*.header, .logo, .header__title,
+
+  /*
+  .header, .logo, .header__title,
   .header__subtitle,
   .header__main-illustration, 
   .header__square, 
@@ -81,6 +82,7 @@
   .khan__kuy-link,
   .khan__buy-link,
   .resources__logo-zone,
-  .resources__logo{
+  .resources__logo,
+  .imagenes{
     border: 1px solid red
   }*/
